@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FCC Landing Page Project</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+  <body>
+    <header id="header">
+      <img  id="header-img" src="hdr.png" alt="header image" />
+      <nav id="nav-bar">
+        <div><a href="#header" class="nav-link">Home</a></div>
+        <div><a href="#video-container" class="nav-link">Video</a></div>
+        <div><a href="#plans-container" class="nav-link">Plans</a></div>
+        <div><a href="#form-container" class="nav-link">etc</a></div>
+      </nav>
+    </header>
+    <main id="main">
+      <div id="video-container">
+        <div id="video-div">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/j9c1298Niz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="plans-container">
+        <div id="plans">
+        <div class="plan pink">1</div>
+        <div class="plan gray">2</div>
+        <div class="plan plan-c"><img src="rose.png" id="plan_rose" alt="roseisaroseisarose" /></div>
+        </div>
+      </div>
+      <div id="form-container">
+        <h2>Sign up for our <b class="pink">Newsletter</b></h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div>
+            <label for="email">Your email <u>here:</u></label>
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <input id="submit" type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

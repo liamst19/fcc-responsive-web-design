@@ -1,0 +1,111 @@
+/* stylesheet for Survey Form Project */
+
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0 1vw;
+    max-width: 25rem;
+}
+
+h1{
+    color: #0361a8;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+p{
+    padding: 0;
+    margin: 0 0 0 0.5rem;
+}
+
+form {
+    background-color: #eee;
+    width: 95vw;
+    max-width: 25rem;
+    margin: 1rem 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+form > div {
+    margin: 0.75em auto;
+}
+
+form > div > label {
+    margin: 0.1rem 0;
+    font-weight: bold;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+
+form > div > fieldset {
+    border: none;
+    padding: 0.25rem 0 0 0;
+    margin: 0;
+}
+
+form > div > fieldset > legend {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+form > div > fieldset > label {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+form > div > input[type="text"],
+form > div > input[type="email"],
+form > div > input[type="number"],
+form > div > select,
+form > div > textarea,
+form > div > button {
+    width: 97%;
+    padding: 0.5em 1%;
+    border: 1px solid #999;
+    margin-left: 0.1rem;
+    border-radius: 0.25rem;
+}
+
+form > div > select,
+form > div > button {
+    width: 99%;
+}
+
+form > div > button {
+    font-size: 1.25rem;
+    background-color: #0361a8;
+    color: #fff;
+}
+
+form > div > button:hover {
+    background-color: #666;
+}
+form > div > button:active {
+    background-color: #bbb;
+}
+
+
+@media (min-width: 500px) {
+    body {
+        background-color: #fff;
+    }
+
+    form {
+        padding: 0.5rem;
+        border-radius: 8px;
+    }
+}

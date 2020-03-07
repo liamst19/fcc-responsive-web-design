@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Merriweather&display=swap');
+
+
+body {
+    background-color: #0f1312;
+    padding: 1em 0;
+    margin: 0 auto;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+a {
+    color: #ffa356;
+}
+
+#main {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template:
+        "quote"
+            "header"
+            "title "
+            "content "
+}
+
+#quote {
+    grid-area: quote;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5em;
+}
+
+#quote q::before{
+    content: open-quote;
+}
+#quote q::after{
+    content: close-quote;
+}
+
+#img-div {
+    margin: -1em auto 0 auto;
+    display: block;
+    grid-area: header;
+}
+
+#image {
+    max-width: 100%;
+    min-height: 5rem;
+    max-height: 48rem;
+    display: block;
+    margin: auto;
+}
+
+/* Hide captions from view, make available
+   for screen readers */
+#img-caption {
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    margin-left: -999999999px;
+    font-size: 1px;
+}
+
+#tribute-info {
+    max-width: 38rem;
+    margin: -5rem auto 0 auto;
+    padding: 0 1rem;
+    grid-area: content;
+}
+
+#title {
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-weight: normal;
+    text-align: left;
+    grid-area: title;
+    line-height: .75em;
+    border-bottom: 1px solid #fff;
+}
+
+#tribute-info h2 {
+    margin: 0.25rem 0;
+    padding: 0 0.25rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+#tribute-info p,
+#tribute-info ul {
+    font-family: 'Merriweather', serif;
+    line-height: 1.75rem;
+    margin: 1em 0.5rem;
+}
+
+#tribute-info > ul {
+}
+
+#tribute-info > p {
+    text-align: justify;
+}
+
+#tribute-info > p ~ p {
+}
+
+#more-info {
+    max-width: 38rem;
+    padding: 0.25rem 0 0 0;
+    margin: 0 auto;
+    font-size: 0.75rem;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+/* Adjustments for smaller device screens */
+@media (min-width: 600px){
+    body {
+        font-size: 16px;
+    }
+    #quote {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
