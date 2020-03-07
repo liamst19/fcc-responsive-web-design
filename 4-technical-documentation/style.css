@@ -1,0 +1,60 @@
+
+body {
+    font-family: sans-serif;
+}
+
+#navbar {
+}
+
+#navbar > h1 {
+    display: initial;
+}
+
+#navbar > ol {
+}
+
+#main-doc > h1 {
+    display: none;
+}
+
+.main-section > article > dl.commands > dt {
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+@media (min-width: 600px){
+    body {
+    }
+    #navbar {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 15rem;
+        height: 100vh;
+    }
+    #navbar > header > h1 {
+        display: none;
+    }
+    #navbar ol {
+        height: auto;
+        overflow: auto;
+        margin-top: 3rem;
+    }
+    #navbar ol li {
+        margin: 0.5em;
+    }
+    #main-doc {
+        position: absolute;
+        left: 15rem;
+    }
+    #main-doc > h1 {
+        display: initial;
+    }
+    .main-section {
+        margin: 0 1rem;
+    }
+    .main-section > article {
+        margin: 0 1rem;
+    }
+}

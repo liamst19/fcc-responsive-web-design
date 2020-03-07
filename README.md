@@ -2,7 +2,7 @@
 
 This is a collection of exercise projects from [freeCodeCamp's lessons on Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/).
 
-The pages can be viewed [here](https://liamst19.github.io/fcc-responsive-web-design/ "here"), or individually:
+The pages can be viewed from [here](https://liamst19.github.io/fcc-responsive-web-design/ "here"), or individually:
 
 1. [Build a Tribute Page](https://liamst19.github.io/fcc-responsive-web-design/1-tribute-page/)
 2. [Build a Survey Form](https://liamst19.github.io/fcc-responsive-web-design/2-survey-form/)
