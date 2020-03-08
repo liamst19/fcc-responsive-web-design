@@ -8,4 +8,4 @@ The pages can be viewed from [here](https://liamst19.github.io/fcc-responsive-we
 2. [Build a Survey Form](https://liamst19.github.io/fcc-responsive-web-design/2-survey-form/)
 3. [Build a Product Landing Page](https://liamst19.github.io/fcc-responsive-web-design/3-product-landing-page/)
 4. [Build a Technical Documentation Page](https://liamst19.github.io/fcc-responsive-web-design/4-technical-documentation/)
-5. [Build a Personal Portfolio Website](https://liamst19.github.io/fcc-responsive-web-design/5-personal-portfolio/)
+5. [Build a Personal Portfolio Website](https://liamst19.github.io/fcc-responsive-web-design/)
